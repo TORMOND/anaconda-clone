@@ -1,14 +1,40 @@
+
+body{
+    width: 100%;
+}
+
 .nav-wrapper{
     display: flex;
 }
-ul{
+.nav-wrapper ul{
     display: flex;
 
 }
-li{
+.nav-wrapper li{
     list-style: none;
     padding: 21.6px 25.2px;
     font-size: 18px;
+}
+
+.nav-wrapper a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    display: flex;
+    
+}
+.logo img{
+    width:40px;
+    height: 40px;
+margin-top: 30px;
+    margin-right: 5px;
+  
+}
+.logo h2{
+    font-weight: 600;
+    font-size: 24px;
+  
 }
 .btn{
     padding: 6.12px 22.95px;
@@ -45,9 +71,24 @@ span img{
 }
 .details{
     background: #DCF0EF;
+    padding: 108px 0;
+}
+.details h3{
+    margin: 10px 0;
+    font-size: 24px;
+}
+.details li p{
+   
+    margin: 4.5px 0 18px;
+    font-size: 18px;
+}
+
+.details p{
+    color: #556575;
 }
 .state{
     background: #111827;
+    padding: 108px 0;
 }
 .row{
     display: inline;
@@ -59,13 +100,83 @@ span img{
     background: #152442;
     padding: 72px 0 36px;
 }
+.card{
+    border-radius: 10px;
+}
+h6{
+    color:#4CD47C;
+}
+.highlight{
+    color: #4CD47C;
+    margin: 0;
+}
+
+.fa-caret-down{
+    color: grey;
+}
+.importance{
+    width: 442px;
+    height: 446.17px;
+    padding: 36px;
+}
+.footer h1{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+.footer a{
+    color: #A5B2BD;
+    margin:0 0 5.67px;
+
+}
+.footer li{
+    list-style: none;
+}
+
+.footer i{
+    color:#A5B2BD;
+}
+.footer p{
+    color:#A5B2BD;  
+}
+.terms{
+    display: flex;
+}
+.report{
+    margin-top: 20px;
+    margin-left: 250px;
+}
+.supercharge .btn{
+    margin-top: 30px;
+    margin-left: 350px;
+    padding: 14.4px 32.4px ;
+    
+}
+.supercharge{
+    margin-bottom: 200px;
+    
+    padding: 180px 0;
+}
+
+
+
 @media all and (max-width:1051px) and (max-height:937px){
+   
     .btn{
         display: none;
     }
     
 }
 @media all and (max-width:1000px) and (max-height:937px){
+    ul{
+     visibility: hidden;
+    }
+    .images{
+        display: none;
+    }
+}
+
+@media all and (max-width:600px) and (max-height:800px){
     ul{
      visibility: hidden;
     }
