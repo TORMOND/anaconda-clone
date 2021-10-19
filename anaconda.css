@@ -550,6 +550,10 @@ button:hover{
 
 
 @media all and (max-width:1051px) and (max-height:937px){
+
+    .footer{
+        width:1051px ;
+    }
    .menu{
        display: block;
    }
@@ -568,7 +572,12 @@ button:hover{
 }
 
 @media all and (max-width:600px) and (max-height:800px){
-   
+    body{
+        width:500px;
+    }
+    .footer{
+        width:500px;
+    }
     ul{
      visibility: hidden;
     }
