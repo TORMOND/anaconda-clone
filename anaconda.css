@@ -1,587 +1,658 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 @font-face {
     font-family: system;
     font-style: normal;
     font-weight: 200;
     src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
 }
-body{
-    font-family:"system";
-    width:100%;
+
+body {
+    font-family: "system";
+    width: 100%;
 }
 
-.nav-wrapper{
+.nav-wrapper {
     display: flex;
     width: 100%;
 }
-.nav-wrapper ul{
+
+.nav-wrapper ul {
     display: flex;
-
 }
-.menu{
-  margin-left:200px;  
-  margin-top:20px;
 
+.menu {
+    margin-left: 200px;
+    margin-top: 20px;
 }
-.nav-wrapper li{
+
+.nav-wrapper li {
     list-style: none;
     padding: 21.6px 25.2px;
     font-size: 18px;
 }
 
-.nav-wrapper a{
+.nav-wrapper a {
     text-decoration: none;
     color: black;
 }
-.logo{
+
+.logo {
     display: flex;
-    
 }
-.logo img{
-    width:40px;
+
+.logo img {
+    width: 40px;
     height: 40px;
-margin-top: 30px;
+    margin-top: 30px;
     margin-right: 5px;
-  
 }
-.logo h2{
+
+.logo h2 {
     font-weight: 600;
     font-size: 24px;
-  
 }
-.btn{
+
+.btn {
     padding: 6.12px 22.95px;
     font-size: 15.3px;
-   
+}
 
+.menu {
+    display: none;
 }
-.menu{
-   display: none;
-}
-.start{
+
+.start {
     padding: 108px 0;
 }
-.start h1:nth-child(2){
-color: #43B049;
 
+.start h1:nth-child(2) {
+    color: #43B049;
 }
-.start p{
-   font-size: 22.5px;
+
+.start p {
+    font-size: 22.5px;
 }
-.start .btn{
-    margin-left:350px;
+
+.start .btn {
+    margin-left: 350px;
 }
-.images{
+
+.images {
     height: 500px;
 }
-.images span{
+
+.images span {
     background: #43B049;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-span img{
+
+span img {
     object-fit: cover;
     border-radius: 50%;
     width: 30px;
     height: 30px;
-  
 }
-.start{
+
+.start {
     position: relative;
 }
 
-.images span{
+.images span {
     margin-bottom: 20px;
 }
-.one{
-margin-left: 230px;
-width:66px;
-height: 66px;
+
+.one {
+    margin-left: 230px;
+    width: 66px;
+    height: 66px;
 }
-.two{
-margin-left: 130px;
-width:88px;
-height: 88px;
+
+.two {
+    margin-left: 130px;
+    width: 88px;
+    height: 88px;
 }
-.three{
-   margin-left: 0;
-   width:121px;
-   height: 121px;
-    }
-    .four{
+
+.three {
+    margin-left: 0;
+    width: 121px;
+    height: 121px;
+}
+
+.four {
     margin-left: 280px;
-    position:absolute;
-    top:790px;
-    width:99px;
-    height:99px;
-    }
-    .five{
-        margin-left: 330px;
-        width:77px;
-        height: 77px;
+    position: absolute;
+    top: 790px;
+    width: 99px;
+    height: 99px;
+}
 
-        }
-        .six{
-        margin-left: 420px;
-        position: absolute;
-        top: 800px;
-        width:55px;
-        height:55px;
+.five {
+    margin-left: 330px;
+    width: 77px;
+    height: 77px;
+}
 
-        }
-        .seven{
-            margin-left: 520px;
-            position: absolute;
-            top: 830px;
-            width:82.5px;
-            height: 82.5px;
-            }
-            .eight{
-            margin-left: 620px;
-            position: absolute;
-            top: 780px;
-            width: 71.5px;
-            height: 71.5px;
-            }
-            .nine{
-                margin-left: 720px;
-                position: absolute;
-                top: 730px;
-                width:60.5px;
-                height: 60.5px;
-                }
-                .ten{
-                margin-left: 820px;
-                position: absolute;
-                top: 680px;
-                width:69.3px;
-                height: 69.3px;
-                }
-                .eleven{
-                    margin-left: 950px;
-                    position: absolute;
-                    top: 730px;
-                    width:60.5px;
-                    height: 60.5px;
-                    }
-                    .twelve{
-                    margin-left: 780px;
-                    position: absolute;
-                    top: 790px;
-                    width:91.3px;
-                    height: 91.3px;
-                    }
-                    .thirteen{
-                        margin-left: 600px;
-                        position: absolute;
-                        top: 900px;
-                        width:121px;
-                        height: 121px;
-                        }
-                        .fourteen{
-                        margin-left: 830px;
-                        position: absolute;
-                        top: 1000px;
-                        width:104.5px;
-                        height: 104.5px;
-                        }
+.six {
+    margin-left: 420px;
+    position: absolute;
+    top: 800px;
+    width: 55px;
+    height: 55px;
+}
 
+.seven {
+    margin-left: 520px;
+    position: absolute;
+    top: 830px;
+    width: 82.5px;
+    height: 82.5px;
+}
 
-                        .one img{
-                            
-                            width:55px;
-                            height: 55px;
-                            }
-                            .two img{
-                           
-                            width:78px;
-                            height:78px;
-                            }
-                            .three img{
-                               
-                               width:111px;
-                               height: 111px;
-                                }
-                                .four img{
-                            
-                                width:89px;
-                                height:89px;
-                                }
-                                .five img{
-                                   
-                                    width:67px;
-                                    height: 67px;
-                            
-                                    }
-                                    .six img{
-                                   
-                                    width:45px;
-                                    height:45px;
-                            
-                                    }
-                                    .seven img{
-                                        
-                                        width:72.5px;
-                                        height: 72.5px;
-                                        }
-                                        .eight img{
-                                       
-                                        width: 61.5px;
-                                        height: 61.5px;
-                                        }
-                                        .nine img{
-                                           
-                                            width:50.5px;
-                                            height: 50.5px;
-                                            }
-                                            .ten img{
-                                           
-                                            width:59.3px;
-                                            height: 59.3px;
-                                            }
-                                            .eleven img{
-                                               
-                                                width:50.5px;
-                                                height: 50.5px;
-                                                }
-                                                .twelve img{
-                                               
-                                                width:81.3px;
-                                                height: 81.3px;
-                                                }
-                                                .thirteen img{
-                                                  
-                                                    width:111px;
-                                                    height: 111px;
-                                                    }
-                                                    .fourteen img{
-                                                   
-                                                    width:94.5px;
-                                                    height: 94.5px;
-                                                    }                        
+.eight {
+    margin-left: 620px;
+    position: absolute;
+    top: 780px;
+    width: 71.5px;
+    height: 71.5px;
+}
 
-.brands{
+.nine {
+    margin-left: 720px;
+    position: absolute;
+    top: 730px;
+    width: 60.5px;
+    height: 60.5px;
+}
+
+.ten {
+    margin-left: 820px;
+    position: absolute;
+    top: 680px;
+    width: 69.3px;
+    height: 69.3px;
+}
+
+.eleven {
+    margin-left: 950px;
+    position: absolute;
+    top: 730px;
+    width: 60.5px;
+    height: 60.5px;
+}
+
+.twelve {
+    margin-left: 780px;
+    position: absolute;
+    top: 790px;
+    width: 91.3px;
+    height: 91.3px;
+}
+
+.thirteen {
+    margin-left: 600px;
+    position: absolute;
+    top: 900px;
+    width: 121px;
+    height: 121px;
+}
+
+.fourteen {
+    margin-left: 830px;
+    position: absolute;
+    top: 1000px;
+    width: 104.5px;
+    height: 104.5px;
+}
+
+.one img {
+    width: 55px;
+    height: 55px;
+}
+
+.two img {
+    width: 78px;
+    height: 78px;
+}
+
+.three img {
+    width: 111px;
+    height: 111px;
+}
+
+.four img {
+    width: 89px;
+    height: 89px;
+}
+
+.five img {
+    width: 67px;
+    height: 67px;
+}
+
+.six img {
+    width: 45px;
+    height: 45px;
+}
+
+.seven img {
+    width: 72.5px;
+    height: 72.5px;
+}
+
+.eight img {
+    width: 61.5px;
+    height: 61.5px;
+}
+
+.nine img {
+    width: 50.5px;
+    height: 50.5px;
+}
+
+.ten img {
+    width: 59.3px;
+    height: 59.3px;
+}
+
+.eleven img {
+    width: 50.5px;
+    height: 50.5px;
+}
+
+.twelve img {
+    width: 81.3px;
+    height: 81.3px;
+}
+
+.thirteen img {
+    width: 111px;
+    height: 111px;
+}
+
+.fourteen img {
+    width: 94.5px;
+    height: 94.5px;
+}
+
+.brands {
     margin: 0 41px;
     padding: 0 18px;
 }
-.details{
+
+.details {
     background: #DCF0EF;
     padding: 108px 0;
 }
-.details h3{
+
+.details h3 {
     margin: 10px 0;
     font-size: 24px;
 }
-.details li p{
-   
+
+.details li p {
     margin: 4.5px 0 18px;
     font-size: 18px;
 }
 
-.details p{
+.details p {
     color: #556575;
 }
-.state{
+
+.state {
     background: #111827;
     padding: 108px 0;
 }
-.row{
+
+.row {
     display: inline;
 }
-.articles{
-    background: #DCF0EF;  
+
+.articles {
+    background: #DCF0EF;
 }
-.articles h1{
+
+.articles h1 {
     font-size: 46px;
-    margin-left:500px ;
+    margin-left: 500px;
 }
-.footer{
+
+.footer {
     background: #152442;
     padding: 72px 0 36px;
 }
-.card{
+
+.card {
     border-radius: 10px;
 }
-h6{
-    color:#4CD47C;
+
+h6 {
+    color: #4CD47C;
 }
-.highlight{
+
+.highlight {
     color: #4CD47C;
     height: 200px;
-
 }
-.fa-bars{
+
+.fa-bars {
     color: #fff;
 }
-.fa-check-circle{
+
+.fa-check-circle {
     color: #43B049;
 }
-.fa-caret-down{
+
+.fa-caret-down {
     color: grey;
 }
-.format{
+
+.format {
     height: 651.8px;
     padding: 108px 0;
 }
-.importance{
+
+.format img {
+    width: 242px;
+    height: 200.17px;
+}
+
+.importance {
     width: 442px;
     height: 446.17px;
     padding: 36px;
-    
+    background: #fff;
 }
-.footer h1{
+
+.footer h1 {
     font-size: 20px;
     font-weight: 600;
     color: #fff;
 }
-.footer a{
-    color: #A5B2BD;
-    margin:0 0 5.67px;
 
+.footer a {
+    color: #A5B2BD;
+    margin: 0 0 5.67px;
 }
-.footer li{
+
+.footer li {
     list-style: none;
 }
 
-.footer i{
-    color:#A5B2BD;
+.footer i {
+    color: #A5B2BD;
 }
-.footer p{
-    color:#A5B2BD;  
+
+.footer p {
+    color: #A5B2BD;
 }
-.terms{
+
+.terms {
     display: flex;
     justify-content: space-between;
 }
-.report{
+
+.report {
     margin-top: 20px;
     margin-left: 250px;
 }
-.supercharge button{
+
+.supercharge button {
     margin-left: 350px;
 }
 
-.supercharge{
+.supercharge {
     padding: 180px 0;
 }
-.platform{
+
+.platform {
     padding: 108px 0;
 }
-.platform .card-title{
-    color:#0B2227;
+
+.platform .card-title {
+    color: #0B2227;
     font-size: 19.8px;
-    margin:19.8px 0;
+    margin: 19.8px 0;
     width: 274.19px;
     height: 27px;
 }
-.edition{
-    margin: 108px ;  
+
+.edition {
+    margin: 108px;
 }
-.articles img{
+
+.articles img {
     width: 364.19px;
     height: 200px;
 }
-.articles .card{
-    width:364.19px;
-    
-    margin-left:20px;
+
+.articles .card {
+    width: 364.19px;
+    margin-left: 20px;
 }
-.articles{
- 
+
+.articles {
     padding: 108px 0;
     display: flex;
     flex-wrap: wrap;
 }
-.articles button{
+
+.articles button {
     margin-top: 100px;
-  
-}
-.solutions{
-    width: 713px;
-  
 }
 
-.solutions p{
+.solutions {
+    width: 713px;
+}
+
+.solutions p {
     font-size: 22.5px;
     width: 713px;
     height: 80px;
 }
-.description{
+
+.description {
     width: 629.33px;
     height: 240px;
-    margin-top:100px;
+    margin-top: 100px;
     margin-left: 200px;
     font-size: 22.5px;
 }
-.challenge{
+
+.challenge {
     width: 442px;
     height: 245.5px;
     margin: 0 0 108px;
 }
-.destiny{
+
+.destiny {
     width: 442px;
     height: 245.5px;
     margin: 0 0 108px;
 }
-.secure{
+
+.secure {
     width: 442px;
     height: 245.5px;
     margin: 0 0 108px;
 }
-.data-scientist{
+
+.data-scientist {
     color: #fff;
     font-size: 28px;
     margin: 28px 0 10px;
-    width:264.5px;
+    width: 264.5px;
     height: 72px;
 }
-.platform .card{
-width: 364.19px;
-height: 550px;
+
+.platform .card {
+    width: 364.19px;
+    height: 550px;
 }
-.policy{
+
+.policy {
     display: flex;
 }
-.policy p{
+
+.policy p {
     margin-left: 10px;
 }
-.line{
-    border-top:1px solid #556575;
+
+.line {
+    border-top: 1px solid #556575;
     height: 20px;
     margin-top: 30px;
 }
-.anaconda{
+
+.anaconda {
     width: 304.5px;
     height: 308px;
-   margin-left: 50px;
+    margin-left: 50px;
 }
-.anaconda img{
+
+.anaconda img {
     width: 62.96px;
     height: 62.96px;
 }
-.anaconda span{
- width:264.5px;  
- height:72px; 
-margin:28px 0 10px;
+
+.anaconda span {
+    width: 264.5px;
+    height: 72px;
+    margin: 28px 0 10px;
 }
-.socials{
+
+.socials {
     height: 27px;
     padding: 108px 0 0;
 }
-.anaconda-logo{
+
+.anaconda-logo {
     height: 63px;
 }
-.platform .card p{
+
+.platform .card p {
     width: 274.19px;
     height: 192px;
     margin: 4.5px 0 18px;
     font-size: 18px;
 }
-.platform .card a{
+
+.platform .card a {
     width: 114.27px;
-    height:59px;
+    height: 59px;
     margin: 27px 0 0;
-    padding:0 0 3px;
+    padding: 0 0 3px;
     font-size: 18px;
-    color:#006BA0;
+    color: #006BA0;
 }
-.platform .card .part-1{
-    background-color:#80BC00 ;
+
+.platform .card .part-1 {
+    background-color: #80BC00;
     height: 27px;
 }
-.part-2{
+
+.part-2 {
     background: #00A19B;
 }
-.part-3{
- background: #006bA0;
+
+.part-3 {
+    background: #006bA0;
 }
-.articles p{
-    width:292.19px;
+
+.articles p {
+    width: 292.19px;
     height: 100px;
     font-size: 22.5px;
     color: #0B2227;
 }
-.articles .more a{
- color: #006BA0;
+
+.articles .more a {
+    color: #006BA0;
 }
-.rep{
+
+.rep {
     border: 2px solid #008DD3;
     border-radius: 32px;
     font-size: 18px;
-   margin-top: 20px;
+    margin-top: 20px;
     padding: 14.4px 36px;
     margin-bottom: 20px;
 }
-.rep i{
+
+.rep i {
     margin-left: 5px;
 }
-button{
+
+button {
     color: #fff;
     background: #0B2227;
     border-radius: 32px;
     font-size: 18px;
     padding: 14.4px 32.4px;
-    border:none;
+    border: none;
     cursor: pointer;
 }
-button:hover{
+
+button:hover {
     background: #046799;
     box-shadow: 2px 2px 2px #899199;
-
 }
 
-.prog{
+.prog {
     background: #80BC00;
     height: 2px;
-    margin-top:-10px;
+    margin-top: -10px;
     margin: auto;
     width: 80px;
-   visibility: hidden;
+    visibility: hidden;
+}
+.card{
+    margin: 20px;
 }
 
-
-
-
-
-
-@media all and (max-width:1051px) and (max-height:937px){
-
-    .footer{
-        width:1051px ;
+@media all and (max-width:1051px) and (max-height:937px) {
+    .footer {
+        width: 1051px;
     }
-   .menu{
-       display: block;
-   }
-    button:nth-child(1){
-        display: none;
+    .menu {
+        display: block;
     }
-    
-}
-@media all and (max-width:1000px) and (max-height:937px){
-    ul{
-     visibility: hidden;
-    }
-    .images{
+    button:nth-child(1) {
         display: none;
     }
 }
 
-@media all and (max-width:600px) and (max-height:800px){
-    body{
-        width:500px;
+@media all and (max-width:1000px) and (max-height:937px) {
+    ul {
+        visibility: hidden;
     }
-    .footer{
-        width:500px;
+    .images {
+        display: none;
     }
-    ul{
-     visibility: hidden;
+}
+
+@media all and (max-width:600px) and (max-height:800px) {
+    .format {
+        height: 446.8px;
+        padding: 108px 0;
     }
-    .images{
+    body {
+        width: 500px;
+    }
+    .footer {
+        width: 500px;
+    }
+    ul {
+        visibility: hidden;
+    }
+    .images {
         display: none;
     }
 }
