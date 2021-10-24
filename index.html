@@ -21,9 +21,8 @@
             <h2>ANACONDA.</span>
         </div>
 <ul class="hide-on-small-only">
-  <a href="https://www.anaconda.com/#"><li>Product
-
-    <i class="fas fa-caret-down"></i>
+  <a href="https://www.anaconda.com/#">
+    <li>Product<i class="fas fa-caret-down"></i>
   </li>
     
 </a>  
@@ -40,18 +39,67 @@
   </li>
     
 </a>  
-    <li><button class=" #0B2227 grey darken-4 modal-trigger" data-target="modal1" >Get Started</button></li>
+    <li><button class="  grey darken-4 "  onclick="toggle()" >Get Started</button></li>
 </ul>
 
-<button class="menu btn-floating #0B2227 grey darken-4 hide-on-large-only valign-wrapper"><i class="fas fa-bars"></i></button>
+<button class="menu btn-floating #0B2227 grey darken-4 hide-on-large-only valign-wrapper " onclick="show()" ><i class="fas fa-bars"></i></button>
+<!--<i class="far fa-times-circle"></i>-->
     </div>
-    
+    <div id="side-Menu">
+<p>PRODUCTS</p>
+<ul>
+  <li><a href="https://www.anaconda.com/products/individual"><img>Individual Edition</a></li>
+  <li><a href="https://www.anaconda.com/products/commercial-edition"><img>Commercial Edition</a></li>
+  <li><a href="https://www.anaconda.com/products/team"><img>Team Edition</a></li>
+  <li><a href="https://www.anaconda.com/products/anaconda-embedded"><img>Anaconda Embedded</a></li>
+  <li><a href="https://www.anaconda.com/products/enterprise"><img>Enterprise Edition</a></li>
+  <li><a href="https://www.anaconda.com/products/professional-services"><img>Professional Services</a></li>
+  <li><a href="https://www.anaconda.com/pricing">Pricing</a></li>
+</ul>
+<p>SOLUTIONS</p>
+<ul>
+  <li><a href="https://www.anaconda.com/use-cases">Use Cases</a></li>
+  <li><a href="https://www.anaconda.com/industries">Indusries</a></li>
+</ul>
+<p>RESOURCES</p>
+<ul>
+  <li><a href="https://www.anaconda.com/blog">Blog</a></li>
+  <li><a href="https://www.anaconda.com/open-source">Open Source</a></li>
+  <li><a href="https://www.anaconda.com/library">Library</a></li>
+  <li><a href="https://www.anaconda.com/events">Events</a></li>
+  <li><a href="https://anaconda.cloud/support-center">Support Center</a></li>
+</ul>
+<p>COMPANY</p>
+<ul>
+  <li><a href="https://www.anaconda.com/about-us">About Us</a></li>
+  <li><a href="https://www.anaconda.com/leadership">Leadership</a></li>
+  <li><a href="https://www.anaconda.com/partners">Partners</a></li>
+  <li><a href="https://www.anaconda.com/press">Press</a></li>
+  <li><a href="https://www.anaconda.com/contact">Contact Us</a></li>
+  <li><a href="https://www.anaconda.com/careers">Careers</a></li>
+</ul>
+    </div>
+
+    <div id="popup">
+<button class="menu btn-floating #0B2227 grey darken-4 left-align right-align" onclick="toggle()"><i
+    class="fas fa-bars" ></i></button>
+<div class="container">
+  <h1>Hello! Let's get Started!</h1>
+  <ul>
+<li><a href="https://www.anaconda.com/pricing">See all Anaconda products<i class="fas fa-chevron-circle-right"></i></a></li>
+<li><a href="https://www.anaconda.com/library">Check out the latest in data science<i class="fas fa-chevron-circle-right"></i></a></li>
+<li><a href="https://www.anaconda.com/contact">Request an Anaconda demo<i class="fas fa-chevron-circle-right"></i></a></li>
+<li><a href="https://www.anaconda.com/products/individual#Downloads">Download Anaconda installers<i class="fas fa-chevron-circle-right"></i></a></li>
+  </ul>
+ 
+</div>
+    </div>
 
     <div class="start container">
 <h1 >Data science technology for</h1>
 <h1 >human sensemaking.</h1>
 <p>A movement that brings together millions of data science practitioners, data-driven enterprises, and the open source community.
-Get Started</p>
+</p>
 
 <button class="  #212121 grey darken-4 center">Get Started</button>
     </div>
@@ -74,8 +122,10 @@ Get Started</p>
 
     </div>
     <div class="brands container ">
-
+<img src="Screen-10-23-2021_115810_PM.png">
     </div>
+
+
     <div class="details">
         <h2 class="solutions container">
             <h2 class=" container">Not just point solutions.</h2>
@@ -128,11 +178,11 @@ Get Started</p>
                   <div class="card ">
                       <div class="part-1 card-content "></div>
                     <div class="card-content ">
-                      <div>
+                      <div class="colored">
                         <img>
                       </div>
                       <span class="card-title container">Commercial Edition</span>
-                      <p>The world's most popular open-source package distribution  and management experience, optimized for commercial usse and compliance with our Terms of Service</p>
+                      <p>The world's most popular open-source package distribution  and management experience, optimized for commercial use and compliance with our Terms of Service</p>
                     </div>
                     <div class="card-content">
                         <a href="">Learn More<i class="fas fa-chevron-circle-right"></i></a>
@@ -146,11 +196,11 @@ Get Started</p>
                   <div class="card ">
                     <div class="part-2 card-content "></div>
                     <div class="card-content ">
-                      <div>
+                      <div class="colored">
                         <img>
                       </div>
                       <span class="card-title">Team Edition</span>
-                      <p>Thousands of curated data science packages in an enterprise-grade repository. Ideal as you scale the use of Python and R across the ddata science discipline.</p>
+                      <p>Thousands of curated data science packages in an enterprise-grade repository. Ideal as you scale the use of Python and R across the data science discipline.</p>
                     </div>
                     <div class="card-content">
                      <a href="">Learn More <i class="fas fa-chevron-circle-right"></i></a>
@@ -165,7 +215,7 @@ Get Started</p>
                   <div class="card ">
                     <div class="part-3 card-content "></div>
                     <div class="card-content ">
-                      <div>
+                      <div class="colored">
                         <img>
                       </div>
                       <span class="card-title">Enterprise Edition</span>
@@ -181,7 +231,7 @@ Get Started</p>
     </div>
 
 
-    <div class="wrapper  state">
+    <div class="state wrapper">
         <div class=" row container">
 <div class="col s12 l6 container">
     <h6 class="container">REPORT</h6>
@@ -200,10 +250,10 @@ Get Started</p>
 </div>
     </div>
 
-    <div class="articles "> 
+    <div class="articles"> 
         <h1 class="container">Recent Articles</h1>
 
-    <div class="row ">
+    <div class="recents row container">
         <div class="card col s12 m12 l4">
             <div class="card-image ">
               <img class="activator" src="Screen-10-19-2021_94802_AM.png">
@@ -241,22 +291,23 @@ Get Started</p>
               <p><a href="#">Securing the Open-Source Pipeline with Anaconda CVE Curation</a></p>
               
             </div>
+           
             <div class="more card-content ">
                 <a href="">Read More <i class="fas fa-chevron-circle-right"></i></a>
             </div>
           </div>
 
     </div>
- 
-    <label class="col s12 ">
-    <a href="https://www.anaconda.com/blog"  ><button class="container grey darken-4">View More articles</button></a>
+  <div class="col s12 "></div>
+    <label class="container">
+    <a href="https://www.anaconda.com/blog"  ><button class=" grey darken-4">View More articles</button></a>
     </label>
 
 </div>
 
 
 <div class="supercharge container">
-    <h1 >Supercharge your data science efforts with Anaconda.</h1>
+    <h1 >Supercharge your data science efforts with <strong>Anaconda.</strong></h1>
     <button class="  grey darken-4 ">Get Started</button>
 </div>
     <div class="footer">
@@ -325,17 +376,11 @@ Get Started</p>
      
 
     </div>
+
+    
+   
     <script src="index.js">
-      document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.modal');
-    var instances = M.Modal.init(elems, options);
-  });
-
-  // Or with jQuery
-
-  $(document).ready(function(){
-    $('.modal').modal();
-  });
+    
     </script>
 </body>
 </html>
