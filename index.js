@@ -7,5 +7,6 @@ function toggle() {
 function show() {
   
     var menu = document.getElementById('side-Menu');
-    menu.classList.toggle('operational');
+    menu.classList.show('operational');
 }
+

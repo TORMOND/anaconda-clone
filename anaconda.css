@@ -3,10 +3,8 @@
     padding: 0;
 }
 
-
-
 body {
-   
+    font-family: museo-sans-rounded,sans-serif;
     width: 100%;
     position: relative;
     box-sizing: inherit;
@@ -403,7 +401,9 @@ h6 {
     display: flex;
     justify-content: space-between;
 }
-
+.terms p{
+    font-size: 16.2px;
+}
 .report {
     margin-top: 20px;
     margin-left: 250px;
@@ -520,6 +520,7 @@ h6 {
     border-top: 1px solid #556575;
     height: 20px;
     margin-top: 30px;
+    
 }
 
 .anaconda {
@@ -544,8 +545,9 @@ h6 {
     padding: 108px 0 0;
 }
 
-.anaconda-logo {
+.anaconda-logo  img{
     height: 63px;
+    width: 63px;
 }
 
 .platform .card p {
@@ -622,8 +624,19 @@ button:hover {
     border: 1px solid #4CD47C;
     position: absolute;
     background: #fff;
+    padding: 10px;
+    width: 200px;
+}.prog h4 {
+    
+    font-size: 18px;
+    color: #152442;
 }
-
+.prog:hover{
+    visibility: visible;
+}
+.prog span:hover{
+    background: #e1fcea;
+}
 .solution:hover+.prog {
     visibility: visible;
 }
@@ -638,9 +651,12 @@ button:hover {
     z-index: 1;
     border: 1px solid #4CD47C;
     background: #fff;
-    width: 750px;
+    width: 780px;
+    padding: 10px;
 }
-
+.duct span:hover{
+    background: #e1fcea;
+}
 .product:hover+.duct {
     visibility: visible;
 }
@@ -652,7 +668,9 @@ button:hover {
     border: 1px solid #4CD47C;
     background: #fff;
 }
-
+.res span:hover{
+    background: #e1fcea;
+}
 .resources {
     position: relative;
 }
@@ -681,20 +699,16 @@ button:hover {
     font-size: 18px;
     font-weight: 800px;
     color: #152442;
+    
+}
+.duct:hover{
+    visibility: visible;
 }
 
-.duct span:hover {
-    background: rgb(240, 234, 234);
-}
 
-.prog h4 {
-   
-    font-size: 18px;
-    color: #152442;
-}
 
 .res h4 {
-  
+    margin-left: 10px;
     font-size: 18px;
     color: #152442;
 }
@@ -703,6 +717,10 @@ button:hover {
     color: grey;
     font-weight: 600;
     font-size: 16px;
+    margin-left: 10px;
+}
+.res:hover{
+    visibility: visible;
 }
 h4{
     font-weight: 800;
@@ -713,7 +731,12 @@ h4{
     color: #152442;
   
 }
-
+.comp:hover{
+    visibility: visible;
+}
+.comp span:hover{
+    background: #e1fcea;
+}
 .company {
     position: relative;
 }
@@ -809,6 +832,22 @@ h1 {
 #popup a:hover {
     background: #fff;
 }
+.state .report a:hover{
+color: #fff;
+background: #005a87;
+}
+.fa-external-link-alt{
+    color:#43B049;
+}
+.recents .card:hover+.more  a{
+    text-decoration: underline;
+}
+
+
+
+
+
+
 
 @media all and (max-width:1051px) and (max-height:937px) {
     .footer {
@@ -852,6 +891,9 @@ h1 {
 }
 
 @media all and (max-width:600px) and (max-height:800px) {
+    .start button {
+        margin-left:0px;
+    }
     .format {
         height: 446.8px;
         padding: 108px 0;
@@ -874,7 +916,17 @@ h1 {
 }
 
 @media screen and (min-width: 320px) {
+    .description {
+        margin-left:30px;
+       
+    }
+    .articles h1{
+        margin-left:30px;   
+    }
     body {
         font-size: calc(11.81818px + .68182vw);
+    }
+    .start button {
+        margin-left:30px;
     }
 }
