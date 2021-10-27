@@ -17,7 +17,7 @@ body {
     display: flex;
     width: 100%;
     justify-content: center;
-    height: 90px;
+   
 }
 
 .nav-wrapper ul {
@@ -83,16 +83,15 @@ font-size: 68px;
 }
 .start h1:nth-child(2) {
     color: #43B049;
-    margin-left: 280px;
+    width: calc(100% - 45%);
 }
 
 .start p {
-  margin-left: 300px;
     font-size: 22.5px;
    bottom: 22.5px;
-   width: 755px;
+   width:calc(100% - 45%);
    height: 71.11px;
-   top: 22.5px;
+  margin-top: 45px;
     color: #556575;
 }
 
@@ -366,12 +365,14 @@ span img {
 
 .articles h1 {
     font-size: 46px;
-    margin-left: 750px;
+    width: calc(100% - 80%);
     margin-bottom: 40px;
 }
-
+.view{
+    width: calc(100% - 80%); 
+}
 .articles button {
-    margin-left: 550px;
+    margin-left: 530px;
 }
 
 .footer {
@@ -517,24 +518,24 @@ h6 {
 }
 
 .solutions {
-    width: 713px;
+    width:calc(100% - 50%);
    
 }
 .solutions h1{
 font-size: 68px;
-width: 713px;
+
 margin-left:5px;
 }
 .solutions p {
     font-size: 22.5px;
-    width: 713px;
+  
     height: 108px;
     margin-left:5px;
 }
 
 .description p:nth-child(1) {
-    width: 629.33px;
-    height: 240px;
+   width: calc(100% - 50%);
+    
     top: 100px;
     font-size: 22.5px;
 }
@@ -609,9 +610,8 @@ margin-left:5px;
 }
 .socials i{
     font-size: 21.6px;
-   
+    margin: 5px;
 }
-
 .anaconda-logo  img{
     height: 63px;
     width: 63px;
@@ -977,8 +977,33 @@ strong{
 .facility:hover+.underline {
     visibility: visible;
 }
+.card{
+    border-radius: 10px;
+}
+.click{
+margin-top: 20px;
+
+}
 
 
+
+@media (max-width:411px) and(max-height:731px){
+   
+    .click{
+        margin-top: 20px;
+        margin-left: 80%;
+        }
+     .start h1{
+         margin-left:20px;
+     }
+     .start h1:nth-child(2){
+        
+        width: 486px;
+    }
+   
+   
+      
+}
 
 
 @media all and (max-width:1051px) and (max-height:937px) {
@@ -988,9 +1013,7 @@ strong{
     .footer {
         width: 1051px;
     }
-    .details{
-        width: 1051px;  
-    }
+    
     .nav-wrapper{
         width: 1051px;
     }
@@ -1036,7 +1059,10 @@ strong{
     height: 140px;
     font-size: 18px;
 }
-
+.state img{
+    width:100%;
+    height:100% ;
+}
 
 
 
@@ -1066,35 +1092,35 @@ strong{
     .description {
         margin-left: 0px;
     }
-    body {
-        width: 600px;
-    }
+  body{
+      width: 250vw;
+  }
     .details{
-        width: 500px;   
+        width:250vw;   
     }
     .start{
-        width: 500px;   
+        width:250vw;   
     }
     .nav-wrapper{
-        width: 500px;  
+        width:250vw;  
     }
     .articles{
-        width: 500px;
+        width:250vw;
     }
     .supercharge{
-        width: 500px; 
+        width: 250vw; 
     }
     .platform{
-        width: 500px;
+        width: 250vw;
     }
     .state{
-        width: 500px;
+        width:250vw;
     }
     .nav-wrapper{
-        width: 500px;
+        width: 250vw;
     }
     .footer {
-        width: 500px;
+        width: 250vw;
     }
     ul {
         visibility: hidden;
@@ -1109,9 +1135,7 @@ strong{
         margin-left:30px;
        
     }
-    .articles h1{
-        margin-left:30px;   
-    }
+    
     body {
         font-size: calc(11.81818px + .68182vw);
     }
