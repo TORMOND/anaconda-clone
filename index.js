@@ -7,9 +7,8 @@ function toggle() {
 function show() {
   
     var menu = document.getElementById('side-Menu');
-        menu.style.visibility = "visible";
+ menu.className = "operational";
+        
   
-
-   
 }
 
