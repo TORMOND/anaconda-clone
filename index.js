@@ -7,7 +7,16 @@ function toggle() {
 function show() {
   
     var menu = document.getElementById('side-Menu');
- menu.className = "operational";
+    if (menu.classList == "") {
+        menu.classList = "operational";
+        
+    }
+    else {
+        menu.classList = "";
+    }
+
+
+ 
         
   
 }
