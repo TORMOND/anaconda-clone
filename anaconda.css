@@ -323,6 +323,11 @@ span img {
     padding: 0 18px;
     margin: 0 auto;
 }
+.brands img{
+    width: 129.95px;
+    height: 60px;
+    margin: 20px;
+}
 
 .details {
     background: #DCF0EF;
@@ -412,20 +417,19 @@ h6 {
 }
 
 .format {
-    height: 651.8px;
     padding: 108px 0;
 }
 
-.format img {
-    width: 242px;
-    height: 200.17px;
-}
+
 
 .importance {
     width: 442px;
     height: 446.17px;
     padding: 36px;
     background: #fff;
+    position: absolute;
+    z-index: 1;
+    margin-top: 250px;
 }
 
 .footer h1 {
@@ -475,6 +479,10 @@ h6 {
     justify-content: center;
     flex-direction: column;
 }
+.supercharge h1{
+    margin: 0 auto;
+    width: calc(100% - 30%);
+}
 
 .get {
     margin: 0 auto;
@@ -507,9 +515,6 @@ h6 {
     height: 200px;
 }
 
-.articles .card {
-    width: 364.19px;
-}
 
 .articles {
     padding: 108px 100px;
@@ -912,10 +917,7 @@ h1 {
     font-weight: 600;
 }
 
-.brands img {
-    width: 155.3px;
-    height: 100px;
-}
+
 
 #popup button {
     top: 100px;
@@ -1033,6 +1035,41 @@ strong {
 h1 {
     font-weight: 100;
 }
+.supercharge strong {
+    color: #43B049;
+}
+
+.state h2 {
+    height: 288px;
+    font-size: 66.0296px;
+}
+
+.state p {
+    height: 140px;
+    font-size: 18px;
+}
+
+.state img {
+    width: 100%;
+    height: 100%;
+}
+.woman-image{
+    margin-left: 68%;
+    position: absolute;
+    z-index: 0;
+    height: 98%;
+}
+.format img{
+    height: 1000px;
+    width: 300px;
+  position: absolute;
+    margin-top: -50px;
+    margin-left:-80px;
+   z-index: 0;
+}
+
+
+
 
 @media all and (max-width:411px) {
     .start h1 {
@@ -1084,24 +1121,10 @@ h1 {
     }
 }
 
-.supercharge strong {
-    color: #43B049;
-}
 
-.state h2 {
-    height: 288px;
-    font-size: 66.0296px;
-}
 
-.state p {
-    height: 140px;
-    font-size: 18px;
-}
 
-.state img {
-    width: 100%;
-    height: 100%;
-}
+
 
 @media all and (max-width:1000px) {
     .images {
@@ -1126,8 +1149,9 @@ h1 {
         margin-left: 0px;
     }
     .format {
-        height: 446.8px;
+       
         padding: 108px 0;
+        position: relative;
     }
     .description {
         margin-left: 0px;
