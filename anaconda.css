@@ -7,10 +7,8 @@ body {
     font-family: museo-sans-rounded, sans-serif;
     width: 100%;
     position: relative;
-    box-sizing: inherit;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+   
+   
 }
 
 .nav-wrapper {
@@ -357,12 +355,35 @@ span img {
     padding: 108px 0;
     display: flex;
     justify-content: center;
+   
+}
+.report{
+    padding: 54px 0;
+}
+.state .report a:hover {
+    color: #fff;
+    background: #005a87;
+}
+.state h2 {
+    height: 288px;
+    font-size: 66.0296px;
 }
 
+.state p {
+    height: 140px;
+    font-size: 18px;
+}
+
+.state img {
+    width: calc(100% - 20px);
+    height: calc(100% - 20px) ;
+}
 .row {
     display: inline;
 }
-
+.view {
+    margin: 0 auto;
+}
 .articles {
     background: #DCF0EF;
     display: flex;
@@ -377,15 +398,44 @@ span img {
     margin-bottom: 40px;
 }
 
-.view {
-    margin: 0 auto;
+
+.articles img {
+    width: 364.19px;
+    height: 200px;
+}
+
+
+.articles {
+    padding: 108px 100px;
+}
+
+.articles .more a:hover {
+    text-decoration: underline;
 }
 
 .articles button {
+    margin-top: 100px;
+}
+.articles .card p {
+    color: #111827;
+}
+.articles button {
     margin-left: 530px;
 }
+.articles p {
+    width: 292.19px;
+    height: 100px;
+    font-size: 22.5px;
+    color: #0B2227;
+}
 
-.footer {
+.articles .more a {
+    color: #006BA0;
+}
+.articles .card{
+    width: fit-content;
+}
+.footer { 
     background: #152442;
     padding: 72px 0 36px;
     width: 100%;
@@ -424,11 +474,10 @@ h6 {
 
 .importance {
     width: 442px;
-    height: 446.17px;
     padding: 36px;
     background: #fff;
-    position: absolute;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
     margin-top: 250px;
 }
 
@@ -469,9 +518,7 @@ h6 {
     font-size: 18px;
 }
 
-.articles .card p {
-    color: #111827;
-}
+
 
 .supercharge {
     padding: 180px 0;
@@ -483,6 +530,10 @@ h6 {
     margin: 0 auto;
     width: calc(100% - 30%);
 }
+.supercharge button{
+    margin-top: 50px;
+}
+
 
 .get {
     margin: 0 auto;
@@ -505,28 +556,34 @@ h6 {
     width: 59.19px;
     height: 53.56px;
 }
+.platform .card {
+    width: 364.19px;
+    height: 550px; 
+    margin: 20px;
+  }
+  .platform .card p {
+    margin: 4.5px 0 18px;
+    font-size: 18px;
+}
 
+.platform .card a {
+   
+   
+    margin: 27px 0 0;
+    padding: 0 0 3px;
+    font-size: 18px;
+    color: #006BA0;
+}
+
+.platform .card .part-1 {
+    background-color: #80BC00;
+    height: 27px;
+}
 .edition {
     margin: 108px;
 }
 
-.articles img {
-    width: 364.19px;
-    height: 200px;
-}
 
-
-.articles {
-    padding: 108px 100px;
-}
-
-.articles .more a:hover {
-    text-decoration: underline;
-}
-
-.articles button {
-    margin-top: 100px;
-}
 
 .solutions {
     width: calc(100% - 50%);
@@ -579,10 +636,7 @@ h6 {
     height: 72px;
 }
 
-.platform .card {
-    width: 364.19px;
-    height: 550px;
-}
+
 
 .policy {
     display: flex;
@@ -630,26 +684,7 @@ h6 {
     width: 63px;
 }
 
-.platform .card p {
-    width: 274.19px;
-    height: 192px;
-    margin: 4.5px 0 18px;
-    font-size: 18px;
-}
 
-.platform .card a {
-    width: 114.27px;
-    height: 59px;
-    margin: 27px 0 0;
-    padding: 0 0 3px;
-    font-size: 18px;
-    color: #006BA0;
-}
-
-.platform .card .part-1 {
-    background-color: #80BC00;
-    height: 27px;
-}
 
 .part-2 {
     background: #00A19B;
@@ -658,17 +693,13 @@ h6 {
 .part-3 {
     background: #006bA0;
 }
-
-.articles p {
-    width: 292.19px;
-    height: 100px;
-    font-size: 22.5px;
-    color: #0B2227;
+.third .card p{
+    height: 70px;
+}
+.third .card h1{
+    font-size: 42px;
 }
 
-.articles .more a {
-    color: #006BA0;
-}
 
 .rep {
     border: 2px solid #008DD3;
@@ -848,7 +879,7 @@ h4 {
 }
 
 .importance li {
-    width: 280.22px;
+
     height: 27px;
     font-size: 19.8px;
     margin: 0 0 39.6px;
@@ -943,10 +974,6 @@ h1 {
     background: #fff;
 }
 
-.state .report a:hover {
-    color: #fff;
-    background: #005a87;
-}
 
 .fa-external-link-alt {
     color: #43B049;
@@ -1039,20 +1066,7 @@ h1 {
     color: #43B049;
 }
 
-.state h2 {
-    height: 288px;
-    font-size: 66.0296px;
-}
 
-.state p {
-    height: 140px;
-    font-size: 18px;
-}
-
-.state img {
-    width: 100%;
-    height: 100%;
-}
 .woman-image{
     margin-left: 68%;
     position: absolute;
@@ -1062,55 +1076,27 @@ h1 {
 .format img{
     height: 1000px;
     width: 300px;
-  position: absolute;
+   position: absolute;
     margin-top: -50px;
     margin-left:-80px;
    z-index: 0;
 }
-
-
-
-
-@media all and (max-width:411px) {
-    .start h1 {
-        margin-left: 20px;
-    }
-    .start h1:nth-child(2) {
-        width: 486px;
-    }
-    .card {
-        width: calc(100% - 80%);
-    }
-    #popup {
-        width: 100%;
-        height: 100%;
-    }
+.importance  li img{
+ width: 20px;
+ height: 20px;
+ margin: 0;
+}
+.importance  li p{
+    margin: 30px;
 }
 
+
+
+
 @media all and (max-width:1051px) {
-    .body {
-        width: 1051px;
-    }
-    .footer {
-        width: 1051px;
-    }
-    .nav-wrapper {
-        width: 1051px;
-    }
-    .start {
-        width: 1051px;
-    }
-    .supercharge {
-        width: 1051px;
-    }
-    .articles {
-        width: 1051px;
-    }
-    .platform {
-        width: 1051px;
-    }
-    .state {
-        width: 1051px;
+    .articles button {
+        margin:0 auto;
+        margin-left: 30px;
     }
     .menu {
         display: block;
@@ -1127,6 +1113,8 @@ h1 {
 
 
 @media all and (max-width:1000px) {
+
+
     .images {
         display: none;
     }
@@ -1139,9 +1127,7 @@ h1 {
 }
 
 @media all and (max-width:600px) {
-    .nav-wrapper {
-        justify-content:space-evenly;
-    }
+   
     .btn-floating {
         margin-left: 450px;
     }
@@ -1156,7 +1142,138 @@ h1 {
     .description {
         margin-left: 0px;
     }
+   
+    .images {
+        display: none;
+    }
+}
+
+
+@media all and (max-width:411px) {
     body {
+        width: 135vw;
+    }
+    .details {
+        width: 135vw;
+    }
+    .popup {
+        width: 135vw;
+        height: 100%;
+    }
+   
+    .nav-wrapper {
+        width: 135vw;
+        height: 22vh;
+    }
+    .articles {
+        width: 135vw;
+    }
+    .articles button {
+        margin:0 auto;
+        margin-left: 30px;
+    }
+    .supercharge {
+        width: 135vw;
+    }
+    .platform {
+        width: 135vw;
+    }
+    .state {
+        width: 135vw;
+      
+    }
+    .nav-wrapper {
+        width: 135vw;
+    }
+    .footer {
+        width: 135vw;
+    }
+.start{
+    width: 135vw;
+    height: 110vh;
+}
+.start h1{
+    width: calc(100% - 20px);
+}
+.start button{
+    font-size: 18px;
+}
+    .state{
+        width: 135vw;
+    }
+    .state img{
+        width: 373.41px;
+        height: 373.41px;
+    }
+    .platform .card{
+        width: calc(100% - 20px);
+    }
+  .solutions{
+      margin-left: 50px;
+  }
+    .solutions h1{
+        width: calc(100% - 20px);
+        
+    }
+    .solutions p{
+        width: calc(100% - 20px);    
+    }
+    .challenge p{
+        width: calc(100% - 20px);
+        height: 128px;
+    }
+    .destiny p{
+        width: calc(100% - 20px);
+        height: 128px;
+    }
+    .secure p{
+        width: calc(100% - 20px);
+        height: 128px;
+    }
+.description p{
+    width: calc(100% - 20px); 
+}
+   
+    .btn-floating{
+       margin-left: 20px;
+    }
+    .start{
+       
+        
+        padding: 59.99px 18px 23.99px;
+        margin: 24px 0 0;
+    }
+    .start h1 {
+        margin-left: 20px;
+        font-size: 39.4752px;
+    }
+    .start h1:nth-child(2) {
+        width: 486px;
+    }
+    .card {
+        width: calc(100% - 20px);
+    }
+    #popup {
+        width: 100%;
+        height: 100%;
+    }
+    .articles .card{
+        width: calc(120% );
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .description {
+        margin-left: 30px;
+    }
+   
+    .start button {
+        margin-left: 30px;
+    }
+}
+
+/* body {
         width: 250vw;
     }
     .details {
@@ -1193,20 +1310,4 @@ h1 {
     }
     .footer {
         width: 250vw;
-    }
-    .images {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .description {
-        margin-left: 30px;
-    }
-    body {
-        font-size: calc(11.81818px + .68182vw);
-    }
-    .start button {
-        margin-left: 30px;
-    }
-}
+    }*/
