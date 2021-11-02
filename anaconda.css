@@ -59,7 +59,7 @@ body {
     margin-top: 19.8px;
 }
 
-.btn {
+.btn-floating {
     padding: 6.12px 22.95px;
     font-size: 15.3px;
 }
@@ -104,10 +104,7 @@ body {
     margin: 0 auto;
 }
 
-#side-Menu .btn-floating {
-    margin-top: 50px;
-    margin-left: 80%;
-}
+
 
 .images {
     height: 500px;
@@ -623,7 +620,7 @@ h6 {
 }
 
 .secure {
-    width: 442px;
+    
     padding: 59px 0;
     margin: 0 0 108px;
 }
@@ -943,12 +940,32 @@ h4 {
     -moz-transition: max-height 0.2s;
     transition: max-height 0.2s;
 }
+#side-Menu .btn-floating {
+    margin-top: 50px;
+    margin-left: 80%;
+}
+
+#side-Menu a{
+    color:#000000;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+#side-Menu li{
+margin: 0 0 13.5px;
+width: 339px;
+height: 36.97px;
+}
+#side-Menu img{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+ 
+}
 
 h1 {
     font-weight: 600;
 }
-
-
 
 #popup button {
     top: 100px;
@@ -1146,15 +1163,17 @@ h1 {
     .images {
         display: none;
     }
+    .format {
+        padding: 54px 0;
+    }
+    
 }
-
-
-@media all and (max-width:411px) {
+@media  all and (max-width:420px) {
     body {
-        width: 135vw;
+        width: 145vw;
     }
     .details {
-        width: 135vw;
+        width: 145vw;
     }
     .popup {
         width: 135vw;
@@ -1162,36 +1181,44 @@ h1 {
     }
    
     .nav-wrapper {
-        width: 135vw;
+        width: 145vw;
         height: 22vh;
     }
     .articles {
-        width: 135vw;
+        width: 145vw;
     }
-    .articles button {
-        margin:0 auto;
+    .description {
+        margin-left: 30px;
+    }
+   
+    .start button {
         margin-left: 30px;
     }
     .supercharge {
-        width: 135vw;
+        width: 145vw;
     }
     .platform {
-        width: 135vw;
+        width: 145vw;
     }
     .state {
-        width: 135vw;
+        width: 145vw;
       
     }
     .nav-wrapper {
-        width: 135vw;
+        width: 145vw;
     }
     .footer {
-        width: 135vw;
+        width: 145vw;
     }
 .start{
-    width: 135vw;
+    width: 145vw;
     height: 110vh;
-}
+}  
+
+
+
+
+
 .start h1{
     width: calc(100% - 20px);
 }
@@ -1230,16 +1257,20 @@ h1 {
         width: calc(100% - 20px);
         height: 128px;
     }
-.description p{
-    width: calc(100% - 20px); 
+    .format {
+        padding: 54px 0;
+    }
+.description p:nth-child(1){
+    width: calc(100%); 
 }
    
     .btn-floating{
        margin-left: 20px;
+      width: 50px;
+      height: 50px;
+     
     }
     .start{
-       
-        
         padding: 59.99px 18px 23.99px;
         margin: 24px 0 0;
     }
@@ -1259,11 +1290,232 @@ h1 {
     }
     .articles .card{
         width: calc(120% );
+        margin-left: -20px;
     }
-
+   .articles .container{
+    width: calc(120%);
+   }
+  .logo h2{
+    font-size: 40px;
+  }
+  #popup button {
+    top: 80px;
+    margin-left: 85%;
+  }
+  .socials{
+    margin: 20px;
+  }
+  #side-Menu{
+      width: 135vw;
+     
+  }
+  .recents{
+      margin: 0 auto;
+  }
+  .supercharge button{
+      margin-left:  auto;
+  }
+  .articles button{
+    margin-left:80px; 
+  }
 }
 
-@media screen and (max-width: 320px) {
+@media all and (max-width:411px) {
+    body {
+        width: 135vw;
+    }
+    .details {
+        width: 135vw;
+    }
+    .popup {
+        width: 135vw;
+        height: 100%;
+    }
+   
+    .nav-wrapper {
+        width: 135vw;
+        height: 22vh;
+    }
+    .articles {
+        width: 135vw;
+    }
+    .articles button {
+        margin:0 auto;
+        margin-left: 30px;
+    }
+    .supercharge {
+        width: 135vw;
+    }
+    .platform {
+        width: 135vw;
+    }
+    .state {
+        width: 135vw;
+      
+    }
+    .nav-wrapper {
+        width: 135vw;
+    }
+    .nav-wrapper button{
+        margin-top: 20px;
+    }
+    .footer {
+        width: 135vw;
+    }
+.start{
+    width: 135vw;
+    height: 110vh;
+}
+.start h1{
+    width: calc(100% - 20px);
+}
+.start button{
+    font-size: 18px;
+}
+    .state{
+        width: 135vw;
+    }
+    .state img{
+        width: 373.41px;
+        height: 373.41px;
+    }
+    .platform .card{
+        width: calc(100% - 20px);
+    }
+  .solutions{
+      margin-left: 50px;
+  }
+    .solutions h1{
+        width: calc(100% - 20px);
+        
+    }
+    .solutions p{
+        width: calc(100% - 20px);    
+    }
+    .challenge p{
+        width: calc(100% - 20px);
+        height: 128px;
+    }
+    .details span{
+        font-size: 40px;
+        margin: 7.1875px 0;
+    }
+    .challenge p{
+        font-size: 38px;
+        color: #556575;
+        margin: 4.5px 0 18px;
+    }
+    .details h3{
+        font-weight: bolder;
+    }
+    .destiny p{
+        width: calc(100% - 20px);
+        height: 128px;
+        font-size: 38px;
+        color: #556575;
+        margin: 4.5px 0 18px;
+    }
+    .secure p{
+        width: calc(100% - 20px);
+        height: 128px;
+        font-size: 38px;
+        color: #556575;
+        margin: 4.5px 0 18px;
+    }
+    .challenge{
+        padding: 27px 0;
+    }
+    .destiny{
+        padding: 27px 0; 
+    }
+    .secure{
+        padding: 27px 0;
+    }
+    .importance{
+        padding: 27px 36px;
+    }
+    .format {
+        padding: 54px 0;
+    }
+.description p:nth-child(1){
+    width: calc(100%); 
+}
+   
+    .btn-floating{
+       margin-left: 20px;
+      width: 50px;
+      height: 50px;
+     
+    }
+    .start{
+        padding: 59.99px 18px 23.99px;
+        margin: 24px 0 0;
+    }
+    .start h1 {
+        margin-left: 20px;
+        font-size: 39.4752px;
+    }
+    .start h1:nth-child(2) {
+        width: 486px;
+    }
+    .card {
+        width: calc(100% - 20px);
+    }
+    #popup {
+        width: 100%;
+        height: 100%;
+    }
+    .articles .card{
+        width: calc(120% );
+        margin-left: -20px;
+    }
+   .articles .container{
+    width: calc(120%);
+   }
+  .logo h2{
+    font-size: 40px;
+  }
+  #popup button {
+    top: 80px;
+    margin-left: 85%;
+  }
+  .socials{
+    margin: 20px;
+  }
+  #side-Menu{
+      width: 135vw;
+     
+  }
+  .recents{
+      margin: 0 auto;
+  }
+  .supercharge button{
+      margin-left:  auto;
+  }
+  .articles button{
+    margin-left:80px; 
+  }
+}
+
+@media screen and (max-width: 380px) {
+    body {
+        width: 145vw;
+    }
+    .details {
+        width: 145vw;
+    }
+    .popup {
+        width: 135vw;
+        height: 100%;
+    }
+   
+    .nav-wrapper {
+        width: 145vw;
+        height: 22vh;
+    }
+    .articles {
+        width: 145vw;
+    }
     .description {
         margin-left: 30px;
     }
@@ -1271,6 +1523,26 @@ h1 {
     .start button {
         margin-left: 30px;
     }
+    .supercharge {
+        width: 145vw;
+    }
+    .platform {
+        width: 145vw;
+    }
+    .state {
+        width: 145vw;
+      
+    }
+    .nav-wrapper {
+        width: 145vw;
+    }
+    .footer {
+        width: 145vw;
+    }
+.start{
+    width: 145vw;
+    height: 110vh;
+}
 }
 
 /* body {

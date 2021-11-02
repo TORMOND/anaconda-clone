@@ -14,10 +14,5 @@ function show() {
     else {
         menu.classList = "";
     }
-
-
- 
-        
-  
 }
 
