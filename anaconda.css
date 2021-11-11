@@ -7,8 +7,6 @@ body {
     font-family: museo-sans-rounded, sans-serif;
     width: 100%;
     position: relative;
-   
-   
 }
 
 .nav-wrapper {
@@ -103,8 +101,6 @@ body {
     height: 80.23px;
     margin: 0 auto;
 }
-
-
 
 .images {
     height: 500px;
@@ -318,7 +314,8 @@ span img {
     padding: 0 18px;
     margin: 0 auto;
 }
-.brands img{
+
+.brands img {
     width: 129.95px;
     height: 60px;
     margin: 20px;
@@ -352,17 +349,19 @@ span img {
     padding: 108px 0;
     display: flex;
     justify-content: center;
-   
 }
-.report{
+
+.report {
     padding: 54px 0;
 }
+
 .state .report a:hover {
     color: #fff;
     background: #005a87;
 }
+
 .state h2 {
-    width:100%;
+    width: 100%;
     height: 288px;
     font-size: 66.0296px;
 }
@@ -374,14 +373,17 @@ span img {
 
 .state img {
     width: calc(100% - 20px);
-    height: calc(100% - 20px) ;
+    height: calc(100% - 20px);
 }
+
 .row {
     display: inline;
 }
+
 .view {
     margin: 0 auto;
 }
+
 .articles {
     background: #DCF0EF;
     display: flex;
@@ -396,12 +398,10 @@ span img {
     margin-bottom: 40px;
 }
 
-
 .articles img {
     width: 364.19px;
     height: 200px;
 }
-
 
 .articles {
     padding: 108px 100px;
@@ -414,26 +414,36 @@ span img {
 .articles button {
     margin-top: 100px;
 }
+
 .articles .card p {
     color: #111827;
 }
+
 .articles button {
     margin-left: 530px;
 }
+
 .articles p {
     width: 292.19px;
     height: 100px;
     font-size: 22.5px;
     color: #0B2227;
 }
-
+.articles .card a{
+    color: #111827;
+}
+.articles .card a:hover{
+    color: #005a87;
+}
 .articles .more a {
     color: #006BA0;
 }
-.articles .card{
+
+.articles .card {
     width: fit-content;
 }
-.footer { 
+
+.footer {
     background: #152442;
     padding: 72px 0 36px;
     width: 100%;
@@ -468,14 +478,12 @@ h6 {
     padding: 108px 0;
 }
 
-
-
 .importance {
     width: 442px;
     padding: 36px;
     background: #fff;
-  position: relative;
-  z-index: 1;
+    position: relative;
+    z-index: 1;
     margin-top: 250px;
 }
 
@@ -516,22 +524,21 @@ h6 {
     font-size: 18px;
 }
 
-
-
 .supercharge {
     padding: 180px 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.supercharge h1{
+
+.supercharge h1 {
     margin: 0 auto;
     width: calc(100% - 30%);
 }
-.supercharge button{
+
+.supercharge button {
     margin-top: 50px;
 }
-
 
 .get {
     margin: 0 auto;
@@ -558,19 +565,19 @@ h6 {
     width: 59.19px;
     height: 53.56px;
 }
+
 .platform .card {
     width: 364.19px;
-    height: 550px; 
+    height: 550px;
     margin: 20px;
-  }
-  .platform .card p {
+}
+
+.platform .card p {
     margin: 4.5px 0 18px;
     font-size: 18px;
 }
 
 .platform .card a {
-   
-   
     margin: 27px 0 0;
     padding: 0 0 3px;
     font-size: 18px;
@@ -581,11 +588,10 @@ h6 {
     background-color: #80BC00;
     height: 27px;
 }
+
 .edition {
     margin: 108px;
 }
-
-
 
 .solutions {
     width: calc(100% - 50%);
@@ -625,7 +631,6 @@ h6 {
 }
 
 .secure {
-    
     padding: 59px 0;
     margin: 0 0 108px;
 }
@@ -637,8 +642,6 @@ h6 {
     width: 264.5px;
     height: 72px;
 }
-
-
 
 .policy {
     display: flex;
@@ -686,8 +689,6 @@ h6 {
     width: 63px;
 }
 
-
-
 .part-2 {
     background: #00A19B;
 }
@@ -695,13 +696,14 @@ h6 {
 .part-3 {
     background: #006bA0;
 }
-.third .card p{
+
+.third .card p {
     height: 70px;
 }
-.third .card h1{
+
+.third .card h1 {
     font-size: 42px;
 }
-
 
 .rep {
     border: 2px solid #008DD3;
@@ -881,7 +883,6 @@ h4 {
 }
 
 .importance li {
-
     height: 27px;
     font-size: 19.8px;
     margin: 0 0 39.6px;
@@ -945,27 +946,29 @@ h4 {
     -moz-transition: max-height 0.2s;
     transition: max-height 0.2s;
 }
+
 #side-Menu .btn-floating {
     margin-top: 50px;
     margin-left: 80%;
 }
 
-#side-Menu a{
-    color:#000000;
+#side-Menu a {
+    color: #000000;
     margin-left: 20px;
     font-weight: bolder;
     font-size: 18px;
 }
-#side-Menu li{
-margin: 0 0 13.5px;
-width: 339px;
-height: 36.97px;
+
+#side-Menu li {
+    margin: 0 0 13.5px;
+    width: 339px;
+    height: 36.97px;
 }
-#side-Menu img{
-  width: 20px;
-  height: 20px;
-  position: absolute;
- 
+
+#side-Menu img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
 }
 
 h1 {
@@ -995,7 +998,6 @@ h1 {
 #popup a:hover {
     background: #fff;
 }
-
 
 .fa-external-link-alt {
     color: #43B049;
@@ -1084,49 +1086,49 @@ strong {
 h1 {
     font-weight: 100;
 }
+
 .supercharge strong {
     color: #43B049;
 }
 
-
-.woman-image{
+.woman-image {
     margin-left: 68%;
     position: absolute;
     z-index: 0;
     height: 98%;
 }
-.format img{
+
+.format img {
     height: 1000px;
     width: 300px;
-   position: absolute;
+    position: absolute;
     margin-top: -50px;
-    margin-left:-80px;
-   z-index: 0;
+    margin-left: -80px;
+    z-index: 0;
 }
-.importance  li img{
- width: 20px;
- height: 20px;
- margin: 0;
+
+.importance li img {
+    width: 20px;
+    height: 20px;
+    margin: 0;
 }
-.importance  li p{
+
+.importance li p {
     margin: 30px;
 }
 
-
-
 @media all and (max-width:1565px) {
-    .platform .card{
-        margin: 20px;    
+    .platform .card {
+        margin: 20px;
     }
-    .articles button{
-        margin-left:320px;
+    .articles button {
+        margin-left: 320px;
     }
 }
 
-
 @media all and (max-width:1051px) {
     .articles button {
-        margin:0 auto;
+        margin: 0 auto;
         margin-left: 30px;
     }
     .menu {
@@ -1138,14 +1140,7 @@ h1 {
     }
 }
 
-
-
-
-
-
 @media all and (max-width:1000px) {
-
-
     .images {
         display: none;
     }
@@ -1158,7 +1153,6 @@ h1 {
 }
 
 @media all and (max-width:600px) {
-   
     .btn-floating {
         margin-left: 450px;
     }
@@ -1166,23 +1160,21 @@ h1 {
         margin-left: 0px;
     }
     .format {
-       
         padding: 108px 0;
         position: relative;
     }
     .description {
         margin-left: 0px;
     }
-   
     .images {
         display: none;
     }
     .format {
         padding: 54px 0;
     }
-    
 }
-@media  all and (max-width:420px) {
+
+@media all and (max-width:420px) {
     body {
         width: 145vw;
     }
@@ -1193,7 +1185,6 @@ h1 {
         width: 135vw;
         height: 100%;
     }
-   
     .nav-wrapper {
         width: 145vw;
         height: 22vh;
@@ -1204,7 +1195,6 @@ h1 {
     .description {
         margin-left: 30px;
     }
-   
     .start button {
         margin-left: 30px;
     }
@@ -1216,7 +1206,6 @@ h1 {
     }
     .state {
         width: 145vw;
-      
     }
     .nav-wrapper {
         width: 145vw;
@@ -1224,67 +1213,59 @@ h1 {
     .footer {
         width: 145vw;
     }
-.start{
-    width: 145vw;
-    height: 110vh;
-}  
-
-
-
-
-
-.start h1{
-    width: calc(100% - 20px);
-}
-.start button{
-    font-size: 18px;
-}
-    .state{
+    .start {
+        width: 145vw;
+        height: 110vh;
+    }
+    .start h1 {
+        width: calc(100% - 20px);
+    }
+    .start button {
+        font-size: 18px;
+    }
+    .state {
         width: 135vw;
     }
-    .state img{
+    .state img {
         width: 373.41px;
         height: 373.41px;
     }
-    .platform .card{
+    .platform .card {
         width: calc(100% - 20px);
     }
-  .solutions{
-      margin-left: 50px;
-  }
-    .solutions h1{
+    .solutions {
+        margin-left: 50px;
+    }
+    .solutions h1 {
         width: calc(100% - 20px);
-        
     }
-    .solutions p{
-        width: calc(100% - 20px);    
-    }
-    .challenge p{
+    .solutions p {
         width: calc(100% - 20px);
-        height: 128px;
     }
-    .destiny p{
+    .challenge p {
         width: calc(100% - 20px);
         height: 128px;
     }
-    .secure p{
+    .destiny p {
+        width: calc(100% - 20px);
+        height: 128px;
+    }
+    .secure p {
         width: calc(100% - 20px);
         height: 128px;
     }
     .format {
         padding: 54px 0;
     }
-.description p:nth-child(1){
-    width: calc(100%); 
-}
-   
-    .btn-floating{
-       margin-left: 20px;
-      width: 50px;
-      height: 50px;
-     
+    .description p:nth-child(1) {
+        width: calc(100%);
     }
-    .start{
+    .btn-floating {
+        margin-left: 20px;
+        width: 50px;
+        height: 50px;
+    }
+    .start {
         padding: 59.99px 18px 23.99px;
         margin: 24px 0 0;
     }
@@ -1302,36 +1283,35 @@ h1 {
         width: 100%;
         height: 100%;
     }
-    .articles .card{
-        width: calc(120% );
+    .articles .card {
+        width: calc(120%);
         margin-left: -20px;
     }
-   .articles .container{
-    width: calc(120%);
-   }
-  .logo h2{
-    font-size: 40px;
-  }
-  #popup button {
-    top: 80px;
-    margin-left: 85%;
-  }
-  .socials{
-    margin: 20px;
-  }
-  #side-Menu{
-      width: 135vw;
-     
-  }
-  .recents{
-      margin: 0 auto;
-  }
-  .supercharge button{
-      margin-left:  auto;
-  }
-  .articles button{
-    margin-left:80px; 
-  }
+    .articles .container {
+        width: calc(120%);
+    }
+    .logo h2 {
+        font-size: 40px;
+    }
+    #popup button {
+        top: 80px;
+        margin-left: 85%;
+    }
+    .socials {
+        margin: 20px;
+    }
+    #side-Menu {
+        width: 135vw;
+    }
+    .recents {
+        margin: 0 auto;
+    }
+    .supercharge button {
+        margin-left: auto;
+    }
+    .articles button {
+        margin-left: 80px;
+    }
 }
 
 @media all and (max-width:411px) {
@@ -1345,7 +1325,6 @@ h1 {
         width: 135vw;
         height: 100%;
     }
-   
     .nav-wrapper {
         width: 135vw;
         height: 22vh;
@@ -1354,7 +1333,7 @@ h1 {
         width: 135vw;
     }
     .articles button {
-        margin:0 auto;
+        margin: 0 auto;
         margin-left: 30px;
     }
     .supercharge {
@@ -1365,103 +1344,99 @@ h1 {
     }
     .state {
         width: 135vw;
-      
     }
     .nav-wrapper {
         width: 135vw;
     }
-    .nav-wrapper button{
+    .nav-wrapper button {
         margin-top: 20px;
     }
     .footer {
         width: 135vw;
     }
-.start{
-    width: 135vw;
-    height: 110vh;
-}
-.start h1{
-    width: calc(100% - 20px);
-}
-.start button{
-    font-size: 18px;
-}
-    .state{
+    .start {
+        width: 135vw;
+        height: 110vh;
+    }
+    .start h1 {
+        width: calc(100% - 20px);
+    }
+    .start button {
+        font-size: 18px;
+    }
+    .state {
         width: 135vw;
     }
-    .state img{
+    .state img {
         width: 373.41px;
         height: 373.41px;
     }
-    .platform .card{
+    .platform .card {
         width: calc(100% - 20px);
     }
-  .solutions{
-      margin-left: 50px;
-  }
-    .solutions h1{
+    .solutions {
+        margin-left: 50px;
+    }
+    .solutions h1 {
         width: calc(100% - 20px);
-        
     }
-    .solutions p{
-        width: calc(100% - 20px);    
+    .solutions p {
+        width: calc(100% - 20px);
     }
-    .challenge p{
+    .challenge p {
         width: calc(100% - 20px);
         height: 128px;
     }
-    .details span{
+    .details span {
         font-size: 40px;
         margin: 7.1875px 0;
     }
-    .challenge p{
+    .challenge p {
         font-size: 38px;
         color: #556575;
         margin: 4.5px 0 18px;
     }
-    .details h3{
+    .details h3 {
         font-weight: bolder;
     }
-    .destiny p{
+    .destiny p {
         width: calc(100% - 20px);
         height: 128px;
         font-size: 38px;
         color: #556575;
         margin: 4.5px 0 18px;
     }
-    .secure p{
+    .secure p {
         width: calc(100% - 20px);
         height: 128px;
         font-size: 38px;
         color: #556575;
         margin: 4.5px 0 18px;
     }
-    .challenge{
+    .challenge {
         padding: 27px 0;
     }
-    .destiny{
-        padding: 27px 0; 
-    }
-    .secure{
+    .destiny {
         padding: 27px 0;
     }
-    .importance{
+    .secure {
+        padding: 27px 0;
+    }
+    .importance {
         padding: 27px 36px;
     }
     .format {
         padding: 54px 0;
     }
-.description p:nth-child(1){
-    width: calc(100%); 
-}
-   
-    .btn-floating{
-       margin-left: 20px;
-      width: 50px;
-      height: 50px;
-     
+    .description p:nth-child(1) {
+        width: calc(100%);
     }
-    .start{
+    .btn-floating {
+        margin-left: 20px;
+        width: 50px;
+        height: 50px;
+    }
+    .start {
         padding: 59.99px 18px 23.99px;
         margin: 24px 0 0;
     }
@@ -1479,36 +1454,35 @@ h1 {
         width: 100%;
         height: 100%;
     }
-    .articles .card{
-        width: calc(120% );
+    .articles .card {
+        width: calc(120%);
         margin-left: -20px;
     }
-   .articles .container{
-    width: calc(120%);
-   }
-  .logo h2{
-    font-size: 40px;
-  }
-  #popup button {
-    top: 80px;
-    margin-left: 85%;
-  }
-  .socials{
-    margin: 20px;
-  }
-  #side-Menu{
-      width: 135vw;
-     
-  }
-  .recents{
-      margin: 0 auto;
-  }
-  .supercharge button{
-      margin-left:  auto;
-  }
-  .articles button{
-    margin-left:80px; 
-  }
+    .articles .container {
+        width: calc(120%);
+    }
+    .logo h2 {
+        font-size: 40px;
+    }
+    #popup button {
+        top: 80px;
+        margin-left: 85%;
+    }
+    .socials {
+        margin: 20px;
+    }
+    #side-Menu {
+        width: 135vw;
+    }
+    .recents {
+        margin: 0 auto;
+    }
+    .supercharge button {
+        margin-left: auto;
+    }
+    .articles button {
+        margin-left: 80px;
+    }
 }
 
 @media screen and (max-width: 380px) {
@@ -1522,7 +1496,6 @@ h1 {
         width: 135vw;
         height: 100%;
     }
-   
     .nav-wrapper {
         width: 145vw;
         height: 22vh;
@@ -1533,7 +1506,6 @@ h1 {
     .description {
         margin-left: 30px;
     }
-   
     .start button {
         margin-left: 30px;
     }
@@ -1545,7 +1517,6 @@ h1 {
     }
     .state {
         width: 145vw;
-      
     }
     .nav-wrapper {
         width: 145vw;
@@ -1553,10 +1524,10 @@ h1 {
     .footer {
         width: 145vw;
     }
-.start{
-    width: 145vw;
-    height: 110vh;
-}
+    .start {
+        width: 145vw;
+        height: 110vh;
+    }
 }
 
 /* body {
